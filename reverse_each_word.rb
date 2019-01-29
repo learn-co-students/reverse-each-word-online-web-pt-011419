@@ -1,4 +1,4 @@
-str = "Hello there, and how are you?"
+#str = "Hello there, and how are you?"
 
 def reverse_each_word(string)
   returnstringarray = []
@@ -9,4 +9,4 @@ def reverse_each_word(string)
   stringarray.collect{|string| string.reverse}.join(" ")
 end
 
-reverse_each_word(str)
+#reverse_each_word(str)
